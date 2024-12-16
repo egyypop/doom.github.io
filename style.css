@@ -1,0 +1,29 @@
+body{
+    background-color: #05053ab9;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+button{
+    margin-top: 8%;
+    font-size: 45px;
+    background-color: rgb(9, 255, 0);
+}
+h1{
+    font-size: 55px;
+}
+.img{
+    display: flex;
+    width: 80%;
+    
+}
+.img img{
+    width: 40%;
+    
+}
+@media (max-width: 450px) {
+   .img{
+       display: none;
+       
+   } 
+}
